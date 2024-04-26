@@ -1,0 +1,88 @@
+.my-list-section {
+  background-color: #21201e;
+  width: 100%;
+  color: white;
+  padding: 40px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.list-description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #1b1b19;
+}
+
+.my-movie-list-image {
+  width: 50px;
+  height: 70px;
+}
+
+.my-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #1b1b19;
+  padding: 10px;
+}
+
+.my-movie-title {
+  width: 300px;
+  cursor: pointer;
+}
+.my-movie-title:hover {
+  text-decoration: underline;
+}
+
+.position-image {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.personal-rates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.delete-comment {
+  display: flex;
+  gap: 10px;
+}
+.delete-comment button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.top-title:hover {
+  text-decoration: none;
+  cursor: auto;
+}
+
+.my-score:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.movie-type:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.movie-score:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.movie-rating:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

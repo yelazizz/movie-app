@@ -1,0 +1,10 @@
+.watch-later-section {
+  background-color: #21201e;
+  width: 100%;
+  padding: 40px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+h1 {
+  color: white;
+}

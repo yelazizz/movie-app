@@ -1,0 +1,20 @@
+.favourites-section {
+  background-color: #21201e;
+  width: 100%;
+  color: white;
+  padding: 40px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.favourites-section .short-info {
+  color: black;
+}
+
+.favourite-img {
+  width: 170px;
+  height: 250px;
+}

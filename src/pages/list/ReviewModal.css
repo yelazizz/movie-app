@@ -1,0 +1,68 @@
+.review-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-itself {
+  background-color: #21201e;
+  height: 500px;
+  width: 700px;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.h1-modal {
+  text-align: center;
+}
+
+.review-input {
+  width: 500px;
+  height: 200px;
+  margin-top: 30px;
+  background-color: #21201e;
+  color: white;
+  box-shadow: 0px 0px 14px 2px #6100c2;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+}
+.review-input:focus {
+  box-shadow: 0px 0px 14px 5px #6100c2;
+  border: none;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.review-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.review-buttons button {
+  color: #6100c2;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 90px;
+}
