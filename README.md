@@ -1,7 +1,7 @@
 ## About project
 This is a movie-related project where the client can: 
  - create his own list of watched, favourites and watch later movies
- - Leave his own thoughts and rate it
+ - leave his own thoughts and rate it
 
 
 ## Installation
